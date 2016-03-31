@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.mto" name="MTO Shahmaghsoudi" version="1.0.0" provider-name="MTO Shahmaghsoudi">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Live Webcast.</summary>
+    <description lang="en">Lecture on Sufism by
+Hazrat Salaheddin Ali Nader Angha
+Maktab Tarighat Oveyssi Shahmaghsoudi® presenting Live Webcast</description>
+    <disclaimer lang="en">© 2016 MTO Shahmaghsoudi ® School of Islamic Sufism
+	http://mtoshahmaghsoudi.org/disclaimer/</disclaimer>
+    <language>en</language>
+    <platform>all</platform>
+    <website>http://www.mto.org</website>
+    <email>info@mto.org</email>
+	<source>https://github.com/samhosse/MTO</source>
+  </extension>
+</addon>
